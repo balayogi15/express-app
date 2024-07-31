@@ -1,0 +1,4 @@
+{"name": "baeldung", "price": 100 }
+
+curl -d "{\"name\":\"baeldung\", \"price\": \"100 rupees\" }" -H "Content-Type: application/json" 
+  http://127.0.0.1:3000/teas
